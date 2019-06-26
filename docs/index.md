@@ -20,7 +20,7 @@
 
 ### Размещение
 Для создания заказа отправить POST запрос на адрес  
-`https://gateway.choco.kz/orders/v1/preorder/create`  
+`https://gateway.chocodev.kz/orders/v1/preorder/create`  
 со следующими данными:
 
 Ключ | Описание | Пример
@@ -47,28 +47,46 @@ _url - ставить эту ссылку для оплаты или сформ�
 
 ## Проверка статуса заказов
 
-Для создания заказа отправить POST запрос на адрес  
-`https://gateway.chocodev.kz/auth/token`  
-со следующими данными:
+Для проверки статуса оплаты заказа отправить POST запрос на адрес  
+`http://gateway.chocodev.kz/orders/v1/preorder/status`  
+со следующими данными:  
 
-Ключ | Описание | Пример
---- | --- | ---
-merchant_order_id | ID заказа в вашей системе **required** | 100500
-amount | Сумма заказа для оплаты через Rahmet **required** | 2500
-token | Токен для определения филиала **required** | hash, выдается нами
-backlink | DeepLink приложения, на которое мы отправим пользователя (чаще всего, ThankYouPage) | https://project.kz/backend/setStatus?id=100500&paid=true
-postlink | Ссылка для оповещения вашего бэка после оплаты (GET) | https://project.kz/backend/order/100500/setPaid
+Ключ | Описание 
+--- | --- 
+merchant_order_ids | Массив ваших ID заказов для проверки статуса **required** 
+
+### Ответ
+```
+{
+    "error_code": 0,
+    "status": "success",
+    "message": "Статусы заказов",
+    "data": {
+        "100500": true,
+        "100501": false
+    }
+}
+```
 
 ## Возврат
 
-* `mkdocs new [dir-name]` - Create a new project.
-* `mkdocs serve` - Start the live-reloading docs server.
-* `mkdocs build` - Build the documentation site.
-* `mkdocs help` - Print this help message.
+Для возврата средств по заказу необходимо отправить POST запрос на адрес
+`http://gateway.chocodev.kz/orders/v1/preorder/refund`  
+с данными:  
 
-## Project layout
+Ключ | Описание 
+--- | --- 
+merchant_order_id | ID заказа для возврата средств **required** 
+amount | Сумма, которую необходимо вернуть **required** 
 
-    mkdocs.yml    # The configuration file.
-    docs/
-        index.md  # The documentation homepage.
-        ...       # Other markdown pages, images and other files.
+### Ответ
+```
+{
+    "error_code": 0,
+    "status": "success",
+    "message": "Заявка на возврат принята в обработку",
+    "data": {
+        
+    }
+}
+```
