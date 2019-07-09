@@ -73,7 +73,7 @@ merchant_order_ids[] | Массив ваших ID заказов для пров
 ## Возврат
 
 Для возврата средств по заказу необходимо отправить POST запрос на адрес
-`https://gateway.chocodev.kz/orders/v1/preorder/refund` (idempodent method)  
+`https://gateway.chocodev.kz/orders/v1/preorder/refund` (idempotent method)  
 с данными:  
 
 Ключ | Описание 
