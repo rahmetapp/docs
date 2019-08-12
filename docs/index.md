@@ -39,6 +39,7 @@ token | Токен для определения филиала **required** | h
 backlink | DeepLink приложения, на которое мы отправим пользователя (чаще всего, ThankYouPage) | https://project.kz/backend/setStatus?id=100500&paid=true
 postlink | Ссылка для оповещения вашего бэка после оплаты (GET) | https://project.kz/backend/order/100500/setPaid
 image_size | Размер картинки, если требуется вернуть QR в формате PNG/base_64 | 300
+timeout | Срок действия заказа (в секундах) | 3600
 
 ### Ответ
 ```
