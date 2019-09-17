@@ -1,1 +1,8 @@
-site_name: Rahmetapp
+site_name: Rahmet Pay API
+pages:
+- Главная: 'index.md'
+- Авторизация: 'auth.md'
+- Создание заказа: 'order.md'
+- Проверка статуса: 'status.md'
+- Возврат: 'refund.md'
+theme: readthedocs
