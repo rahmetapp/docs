@@ -2,6 +2,7 @@ site_name: Rahmet Pay API
 pages:
 - Главная: 'index.md'
 - Авторизация: 'auth.md'
+- Доступность оплаты: 'availability.md'
 - Создание заказа: 'order.md'
 - Проверка статуса: 'status.md'
 - Возврат: 'refund.md'
