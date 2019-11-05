@@ -19,16 +19,20 @@
 {
     "error_code": 0,
     "status": "success",
-    "message": "Оплата доступна",
-    "data": null
+    "message": "Доступность оплаты",
+    "data": {
+        "available": true
+    }
 }
 ```
 ```
 {
-    "error_code": 400,
-    "status": "error",
-    "message": "Проводятся технические работы. Оплата временно не доступна",
-    "data": null
+    "error_code": 0,
+    "status": "success",
+    "message": "Доступность оплаты",
+    "data": {
+        "available": false
+    }
 }
 ```
 ```
