@@ -22,10 +22,10 @@ client_id | ID клиента | Обязательное
 client_secret | Секретный ключ клиента | Обязательное
 grant_type | Тип авторизации | Постоянное значение: `client_credentials`
 
-Пример запроса: 
+Пример запроса (данные для авторизации в тестовом окружении): 
 ```
-client_id: 1184623
-client_secret: fkbitrw12qw30as09d107c8ed82bcfac04273a3f491b81d51f7205df0760ae0g
+client_id: 12697011
+client_secret: 7k4fv685jckshj5wljplsot707olo2x9sn58uba6l8djhomu4sk92y5xaurd66q8
 grant_type: client_credentials
 ```
 ## Ответ
