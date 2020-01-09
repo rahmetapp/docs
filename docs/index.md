@@ -18,7 +18,7 @@ Rahmet Pay поддерживает функции:
 
 *Для проведения тестовых оплат, мы выдаём приложение с предварительно созданным аккаунтом с деньгами на счету.*  
 
-[Ссылка на скачивание приложения](https://github.com/rahmetapp/docs/app-develop-debug.apk)  
+[Ссылка на скачивание приложения](https://github.com/rahmetapp/docs/raw/master/app-develop-debug.apk)  
  
 Данные для входа в приложение (выбрать вход через email)  
 Email: rahmetpay.test@rahmetapp.kz  
