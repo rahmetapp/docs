@@ -9,7 +9,7 @@
 ## Запрос и пример
 
 Для авторизации необходимо выполнить вызов метода  
-`https://gateway.chocodev.kz/auth/token`  
+`POST https://gateway.chocodev.kz/auth/token`  
 (в заголовке не забываем [Content-Type](/#_3))
 
 Значения для параметров (ID, Secret) мы выдадим заранее.

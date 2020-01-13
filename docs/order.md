@@ -1,7 +1,7 @@
 ## Запрос и пример
 
 Для создания заказа необходимо выполнить вызов метода  
-`https://gateway.chocodev.kz/orders/v1/preorder/create`  
+`POST https://gateway.chocodev.kz/orders/v1/preorder/create`  
 (в заголовке не забываем [Content-Type](/#_3) и [токен](/auth))  
 
 Параметры запроса:

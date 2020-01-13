@@ -7,7 +7,7 @@
 ## Запрос
 
 Для проверки доступности необходимо выполнить вызов метода  
-`https://gateway.chocodev.kz/orders/v1/preorder/availability`  
+`GET https://gateway.chocodev.kz/orders/v1/preorder/availability`  
 (в заголовке не забываем [Content-Type](/#_3) и [токен](/auth))  
 
 ## Ответ

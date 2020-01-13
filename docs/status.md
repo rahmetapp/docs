@@ -1,7 +1,7 @@
 ## Запрос и пример
 
 Для проверки статуса оплаты заказа необходимо выполнить вызов метода  
-`https://gateway.chocodev.kz/orders/v1/preorder/status`  
+`POST https://gateway.chocodev.kz/orders/v1/preorder/status`  
 (в заголовке не забываем [Content-Type](/#_3) и [токен](/auth))  
 
 Параметры запроса:
