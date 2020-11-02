@@ -30,6 +30,7 @@ merchant_order_ids[]: 100502
     "data": {
         "100500": {
             "is_paid": true,
+            "reference": 123456,
             "amount": 3000,
             "cashback": 300,
             "refund": {
@@ -39,11 +40,13 @@ merchant_order_ids[]: 100502
         },
         "100501": {
             "is_paid": true,
+            "reference": 123457,
             "amount": 5000,
             "cashback": 250
         },
         "100502": {
             "is_paid": false,
+            "reference": 123458,
             "amount": null,
             "cashback": null
         }
