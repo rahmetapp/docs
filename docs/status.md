@@ -32,6 +32,7 @@ merchant_order_ids[]: 100502
             "is_paid": true,
             "reference": 123456,
             "amount": 3000,
+            "balance_amount": 100,
             "cashback": 300,
             "refund": {
                 "refunded_amount": 1500,
@@ -42,6 +43,7 @@ merchant_order_ids[]: 100502
             "is_paid": true,
             "reference": 123457,
             "amount": 5000,
+            "balance_amount": 100,
             "cashback": 250
         },
         "100502": {
