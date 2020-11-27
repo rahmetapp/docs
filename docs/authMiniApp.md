@@ -2,10 +2,10 @@
 
 ### Ааторизация проходит через нас и Вам выдаются client_id и client_secret. Возможны два кейса при авторизации:
 - **Юзер авторизован в Рахмете.** В этом случае в url передается query "track_id", c помощью которого вы делаете запрос на наш gateway "auth/token" с полями в хедере: 
-    1. *client_id*
-    2. *client_secret*
-    3. *track_id* 
-    4. *grant_type* (= authorization_track_id)
+    - *client_id*
+    - *client_secret*
+    - *track_id* 
+    - *grant_type* (= authorization_track_id)
 
 - В теле ответа вы получаете token, который будет необходим в дальнейшем для обращения к наешму gateway:
     ```json
