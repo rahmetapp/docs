@@ -5,4 +5,4 @@
 - [**Бесшовная авторизация через Рахмет**](https://github.com/ulan61/docs/blob/master/docs/mini%20app%20auth.md)
 - [**Оплата через Рахмет**](https://github.com/ulan61/docs/blob/master/docs/mini%20app%20pay.md)
 - [**Реферальная программа Рахмет**](https://github.com/ulan61/docs/blob/master/docs/mini%20app%20referral%20program.md)
-- **Хаптик**
+- [**Haptic Touch**](https://github.com/ulan61/docs/blob/master/docs/mini%20app%20haptic.md)
