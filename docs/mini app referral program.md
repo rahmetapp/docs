@@ -3,8 +3,8 @@
 - ### Для получения реферального кода необходимо вызвать *RahmetApp.getReferralCode()* и ответ вернется в методы *RahmetWebApp.didGetReferralCode(json)* и *RahmetWebApp.didFailReferralCode(error)*, которые определены в User Script.
     ```json
     {
-        "code": {ref_code}
-        "activations_count": 0
+        "code": {ref_code},
+        "activations_count": 0,
         "completed_count": 0
     }
     ```
