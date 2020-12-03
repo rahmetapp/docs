@@ -4,6 +4,7 @@ pages:
 - Авторизация: 'auth.md'
 - Доступность оплаты: 'availability.md'
 - Создание заказа: 'order.md'
+- Проверка заказа перед оплатой: 'check_before_pay.md'
 - Проверка статуса: 'status.md'
 - Возврат: 'refund.md'
 theme: readthedocs
