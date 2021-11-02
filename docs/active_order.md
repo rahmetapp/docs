@@ -2,7 +2,7 @@
 
 Для создания активного заказа  
 `PUT https://gateway.chocodev.kz//orders/v2/preorder/external/status`  
-(в заголовке не забываем [Content-Type](/#_3) и [токен](/auth))  
+(в заголовке не забываем [Content-Type](/#_3) и [токен](/en/latest/auth))  
 
 Параметры запроса:
 

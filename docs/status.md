@@ -2,7 +2,7 @@
 
 Для проверки статуса оплаты заказа необходимо выполнить вызов метода  
 `POST https://gateway.chocodev.kz/orders/v1/preorder/status`  
-(в заголовке не забываем [Content-Type](/#_3) и [токен](/auth))  
+(в заголовке не забываем [Content-Type](/#_3) и [токен](/en/latest/auth))  
 
 Параметры запроса:
 
