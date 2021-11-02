@@ -2,7 +2,7 @@
 
 Для возврата средств по заказу необходимо выполнить вызов метода  
 `POST https://gateway.chocodev.kz/orders/v1/preorder/refund` (idempotent method)  
-(в заголовке не забываем [Content-Type](/#_3) и [токен](auth))  
+(в заголовке не забываем [Content-Type](/#_3) и [токен](/auth))  
 
 Чтобы использовать этот метод как идемпотентный, необходимо в заголовках отправить  
 `X-Idempotency-Key: UUID-V4`
