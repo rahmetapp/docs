@@ -11,6 +11,7 @@ Rahmet Pay поддерживает функции:
 &nbsp;&nbsp;&nbsp;&nbsp;- [создания заказа](order.md);  
 &nbsp;&nbsp;&nbsp;&nbsp;- [проверки статуса заказа](status.md);  
 &nbsp;&nbsp;&nbsp;&nbsp;- [возврата денег](refund.md).  
+&nbsp;&nbsp;&nbsp;&nbsp;- [активный заказ](active_order.md).
 
 Оплата производится пользователем через клиентское приложение Rahmetapp.  
 

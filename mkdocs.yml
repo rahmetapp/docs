@@ -7,4 +7,5 @@ pages:
 - Проверка заказа перед оплатой: 'check_before_pay.md'
 - Проверка статуса: 'status.md'
 - Возврат: 'refund.md'
+- Активный заказ: 'active_order.md'
 theme: readthedocs
