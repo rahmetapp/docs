@@ -16,12 +16,15 @@ deeplinks[0][type] | Тип deeplink | Обязательное | active_order_c
 external_data[expired_at] <sup>2</sup> | Дата и время до которого действует статус | Обязательное | 2021-10-10 00:00:00 | string
 external_data[title_active_order_card] <sup>3</sup> | Заголовок в карточке активного заказа | Обязательное | Заказ создан | string
 external_data[title_call_to_action] <sup>4</sup> | Заголовок кнопки | Обязательное | Показать на карте | string
-is_need_timer | Нужно ли отображать таймер обратного отсчёта | Обязательное | true | bool
+external_data[subtitle_active_order_card] <sup>5</sup> | Дополнительный текст статуса | Не обязательное | Закак отменен: товара нет в наличии | string
+external_data[need_timer] | Нужно ли отображать таймер  | Обязательное | true | bool
+external_data[countdown_timer] | Таймер обратного отсчёта | Обязательное | true | bool
 
 - <sup>1</sup> Статусы необходимо предварительно передать нам.
 - <sup>2</sup> Формат даты и времени 2021-10-10 00:00:00
 - <sup>3</sup> Ограничение 30 символов.
 - <sup>4</sup> Ограничение 30 символов.
+- <sup>5</sup> Ограничение XX символов. Отображается только при need_timer = false
 
 Пример запроса: 
 ```
@@ -36,9 +39,11 @@ is_need_timer | Нужно ли отображать таймер обратно
             "external_data": {
                 "expired_at": "2021-10-20 16:49:36",
                 "title_active_order_card": "Ожидает оплаты",
-                "title_call_to_action": "К заказу"
+                "title_call_to_action": "К заказу",
+                "subtitle_active_order_card": "Закак отменен: товара нет в наличии",
+                "need_timer": false,
+                "countdown_timer": false
             },
-            "is_need_timer": true,
 }
 ```
 
@@ -54,7 +59,7 @@ is_need_timer | Нужно ли отображать таймер обратно
     "message": "Статус успешно обновлён",
     "data": {
         "id": 1111,
-        "merchant_order_id": "WEE-11122",
+        "merchant_order_id": "11122",
         "filial_id": 1,
         "amount": "1",
         "qr_code_id": 1,
