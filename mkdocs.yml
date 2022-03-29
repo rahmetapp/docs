@@ -1,5 +1,5 @@
 site_name: Rahmet Pay API
-pages:
+nav:
 - Главная: 'index.md'
 - Авторизация: 'auth.md'
 - Доступность оплаты: 'availability.md'
